@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(28, 28, 143);
+  color: #000;
+}
+
+.mainbox {
+  width: 1002px;
+  height: 1000px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(28, 28, 143);
+}
+
+table,
+th,
+td {
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+
+
+/* Styles for the Marina Receipt. */
+.marinareceipt {
+  width: 285px;
+  margin: auto;
+  font-size: 10pt;
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+}
+ /* I could not get this to work for some reason, apologies for the atrocious lineup. I will be actively be trying to figure this out.*/
+.rightalign {
+  text-align: right;
+  display: inline-block;
+  width:100%;
+}
+.marinareceipt th,
+td {
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  line-height: 1.3;
+}
+
+.marinareceipt .mainhead {
+  height: 10px;
+  text-align: center;
+  font-size: 10pt;
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+  color: black;
+}
+
+.marinareceipt .mainhead, td {
+  height: 20px;
+  padding-bottom: 10px;
+}
+
+
+
+.marinareceipt .blackbox {
+  background-color: rgb(0, 0, 0);
+}
